@@ -9,3 +9,65 @@ h1 {
    font-size: 9em;
    font-family: "Arial", Helvetica, sans-serif;
 }
+
+body {
+  background: #222 url("http://img12.deviantart.net/e089/i/2011/114/0/a/plain_eggshell_background_by_hardwayjackson-d3etb0i.jpg") no-repeat fixed center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.social {
+  position: absolute;
+  right: 10%;
+  top  : 60%;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  font-size: 70px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.linkedin {
+  background-color: #000;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #000;
+  color: white;
+}
+
+.social .link.instagram {
+  background-color: #000;
+  color: white;
+}
+
+
+
+
